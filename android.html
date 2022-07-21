@@ -29,25 +29,7 @@
 
     <link rel="stylesheet" href="assets/css/all.css">
 
-    <style>
-        #about {
-            padding: 5px;
-            font-weight: 500;
-            text-align: center;
-            text-transform: capitalize;
-            -webkit-transition: .3s;
-            transition: .3s;
-            border-radius: 100px;
-            overflow: hidden;
-            border: 1px solid blue;
-            color: blue;
-        }
 
-        #about:hover {
-            color: white;
-            background-color: blue;
-        }
-    </style>
 </head>
 
 <body>
@@ -81,18 +63,12 @@
                             <li class="nav-item">
                                 <a href="index.html" class="nav-link">Home</a>
                             </li>
-                            <!-- <li class="nav-item">
-<a href="about.html" class="nav-link">About</a>
-</li> -->
                             <li class="nav-item">
                                 <a href="#" class="nav-link dropdown-toggle active">course</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <a href="iphone.html" class="nav-link">iOS Training</a>
                                     </li>
-                                    <!-- <li class="nav-item">
-<a href="digitalmarketing.html" class="nav-link">Digital Marketing</a>
-</li> -->
                                     <li class="nav-item">
                                         <a href="android.html" class="nav-link active">Android Training</a>
                                     </li>
@@ -101,74 +77,6 @@
                             <li class="nav-item" style="margin-top: -4px;">
                                 <a href="about.html" class="nav-link" id="about">Sponsored Training</a>
                             </li>
-                            <!-- <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Events</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="events.html" class="nav-link">Events</a>
-</li>
-<li class="nav-item">
- <a href="single-events.html" class="nav-link">Events Details</a>
-</li>
-</ul>
-</li> -->
-                            <!-- <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">News</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="news.html" class="nav-link">News</a>
-</li>
-<li class="nav-item">
-<a href="single-news.html" class="nav-link">News Details</a>
-</li>
-</ul>
-</li> -->
-                            <!-- <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Teachers</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="single-teacher.html" class="nav-link">Teachers</a>
-</li>
-<li class="nav-item">
-<a href="single-teacher.html" class="nav-link">Teachers Details</a>
-</li>
-</ul>
-</li> -->
-                            <!-- <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Pages</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="admission.html" class="nav-link">Admission</a>
-</li>
-<li class="nav-item">
-<a href="pricing.html" class="nav-link">Pricing</a>
-</li>
-<li class="nav-item">
-<a href="gallery.html" class="nav-link">Gallery</a>
-</li>
-<li class="nav-item">
-<a href="testimonials.html" class="nav-link">Testimonials</a>
-</li>
-<li class="nav-item">
-<a href="singnup.html" class="nav-link">Signup</a>
-</li>
-<li class="nav-item">
-<a href="signin.html" class="nav-link">Signin</a>
-</li>
-<li class="nav-item">
-<a href="404.html" class="nav-link">Error 404</a>
-</li>
-<li class="nav-item">
-<a href="faq.html" class="nav-link">FAQ</a>
-</li>
-<li class="nav-item">
-<a href="terms%26condition.html" class="nav-link">Terms & Conditions</a>
-</li>
-<li class="nav-item">
-<a href="privecy.html" class="nav-link">Privacy Policy</a>
-</li>
-</ul>
-</li> -->
                             <li class="nav-item">
                                 <a href="contact.html" class="nav-link">Contact </a>
                             </li>
@@ -320,7 +228,8 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <select name="coures" id="coures" class="form-select form-select-lg mb-3 android_css"
+                                            <select name="coures" id="coures"
+                                                class="form-select form-select-lg mb-3 android_css"
                                                 aria-label=".form-select-lg example">
                                                 <option value="iOS Training" selected>iOS Training</option>
                                                 <option value="Android Training">Android Training</option>
@@ -343,166 +252,97 @@
         </div>
     </section>
 
-
-    <!-- <section class="home-contact-area pb-100">
-<div class="container-fluid">
-<div class="row align-items-center">
-<div class="col-lg-6 ps-0">
-<div class="contact-img">
-<img src="assets/images/contact.png" alt="contact" />
-</div>
-</div>
-<div class="col-lg-6">
-<div class="home-contact-content">
-<h2>What Do You Want to Know?</h2>
-<form id="contactForm">
-<div class="row">
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name" />
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email" />
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone" />
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject" />
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-12 col-md-12">
-<div class="form-group">
-<textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="Your Message"></textarea>
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-12 col-md-12">
-<button type="submit" class="default-btn page-btn box-btn">
-Send Message
-</button>
-<div id="msgSubmit" class="h3 text-center hidden"></div>
-<div class="clearfix"></div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</section> -->
-
-   
-
-<div class="footer-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-left">
-                    <a href="index.html" class="logo"><img src="./assets/images-tri/triangular-01.png" alt="logo"
-                            style="height: 70px; width: 100%; background-color: white; border-radius: 60px;" /></a>
-                    <p style="text-align: justify;">
-                        TRIANGULOR Keeping your skills up to date on development methodologies and tools through
-                        training results in faster development cycles and more capable product.</p>
-                    <ul class="footer-social">
-                        <li>
-                            <a href="#https://www.facebook.com/triangulor/"><i class="flaticon-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="flaticon-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="flaticon-envelope"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="flaticon-google-plus"></i></a>
-                        </li>
-                    </ul>
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-left">
+                        <a href="index.html" class="logo"><img src="./assets/images-tri/triangular-01.png" alt="logo"
+                                style="height: 70px; width: 100%; background-color: white; border-radius: 60px;" /></a>
+                        <p style="text-align: justify;">
+                            TRIANGULOR Keeping your skills up to date on development methodologies and tools through
+                            training results in faster development cycles and more capable product.</p>
+                        <ul class="footer-social">
+                            <li>
+                                <a href="#https://www.facebook.com/triangulor/"><i class="flaticon-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flaticon-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flaticon-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flaticon-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="footer-content fml-25">
-                    <h2>Quick Links</h2>
-                    <ul>
-                        <li>
-                            <a href="index.html#featuredCourses"><i class="flaticon-next"></i> Courses</a>
-                        </li>
-                        <li>
-                            <a href="index.html#t_Career"><i class="flaticon-next"></i>Career</a>
-                        </li>
-                        <li>
-                            <a href="index.html#industrialTrainer"><i class="flaticon-next"></i>Trainer</a>
-                        </li>
-                        <!-- <li>
-                            <a href="#"><i class="flaticon-next"></i> Staffs</a>
-                        </li> -->
-                        <li>
-                            <a href="about.html#whyUs"><i class="flaticon-next"></i> Why Us?</a>
-                        </li>
-                    </ul>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content fml-25">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html#featuredCourses"><i class="flaticon-next"></i> Courses</a>
+                            </li>
+                            <li>
+                                <a href="index.html#t_Career"><i class="flaticon-next"></i>Career</a>
+                            </li>
+                            <li>
+                                <a href="index.html#industrialTrainer"><i class="flaticon-next"></i>Trainer</a>
+                            </li>
+
+                            <li>
+                                <a href="about.html#whyUs"><i class="flaticon-next"></i> Why Us?</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-6">
-                <div class="footer-content fml-15">
-                    <h2>Quick Links</h2>
-                    <ul>
-                        <li>
-                            <a href="index.html"><i class="flaticon-next"></i> Home</a>
-                        </li>
-                        <li>
-                            <a href="iphone.html"><i class="flaticon-next"></i>IOS Training</a>
-                        </li>
-                        <li>
-                            <a href="android.html"><i class="flaticon-next"></i>Android Training</a>
-                        </li>
-                        <li>
-                            <a href="about.html"><i class="flaticon-next"></i>sponsored Training</a>
-                        </li>
-                        <li>
-                            <a href="contact.html"><i class="flaticon-next"></i>Contact</a>
-                        </li>
-                    </ul>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-content fml-15">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html"><i class="flaticon-next"></i> Home</a>
+                            </li>
+                            <li>
+                                <a href="iphone.html"><i class="flaticon-next"></i>IOS Training</a>
+                            </li>
+                            <li>
+                                <a href="android.html"><i class="flaticon-next"></i>Android Training</a>
+                            </li>
+                            <li>
+                                <a href="about.html"><i class="flaticon-next"></i>sponsored Training</a>
+                            </li>
+                            <li>
+                                <a href="contact.html"><i class="flaticon-next"></i>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="footer-content fml-15 fml-20">
-                    <h2>Find Us</h2>
-                    <ul>
-                        <li>
-                            <a href="#"><i class="flaticon-next"></i>+91-9289201866</a>
-                        </li>
-                        <!-- <li>
-                            <a href="#"><i class="flaticon-next"></i> +1 (281) 384 574</a>
-                        </li> -->
-                        <li>
-                            <a href="#"><i class="flaticon-next"></i> <span class="__cf_email__"
-                                    data-cfemail="bbd3ded7d7d4fbdedfcdd295d8d4d6">info@triangulor.com</span></a>
-                        </li>
-                        <!-- <li>
-                            <a href="#"><i class="flaticon-next"></i> <span class="__cf_email__"
-                                    data-cfemail="b4c7c1c4c4dbc6c0f4d1d0c2dd9ad7dbd9">[email&#160;protected]</span></a>
-                        </li> -->
-                        <li>
-                            <a href="#">
-                                <i class="flaticon-next"></i> B-91, Sector 2, First Floor - 4, (Near Sector 15 Metro Station) Noida 201301.
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content fml-15 fml-20">
+                        <h2>Find Us</h2>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="flaticon-next"></i>+91-9289201866</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flaticon-next"></i> <span class="__cf_email__"
+                                        data-cfemail="bbd3ded7d7d4fbdedfcdd295d8d4d6">info@triangulor.com</span></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="flaticon-next"></i> B-91, Sector 2, First Floor - 4, (Near Sector 15 Metro
+                                    Station) Noida 201301.
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 

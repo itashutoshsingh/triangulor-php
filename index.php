@@ -18,11 +18,6 @@ require("nevbar.php");
             </div>
         </div>
     </div>
-
-
-    
-
-
     <section class="slider-area">
         <div class="home-slider owl-carousel owl-theme">
             <div class="single-slider single-slider-bg-1">
@@ -173,18 +168,6 @@ require("nevbar.php");
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 sst-10">
-<div class="single-ragular-course">
-<div class="course-img">
-<img src="assets/images/courses/img3.png" alt="ragular" />
-<h2>Digital Marketing</h2>
-</div>
-<div class="course-content">
-<p>Unparalleled Technical Experience and Don't Miss your next opportunity.Gain a competitive advantage.</p>
-<a href="single-class.html" class="border-btn">Read More</a>
-</div>
-</div>
-</div> -->
             </div>
         </div>
     </section>
@@ -316,7 +299,7 @@ require("nevbar.php");
             <div class="home-course-slider owl-carousel owl-theme">
                 <div class="single-home-special-course">
                     <div class="course-img">
-                        <img src="assets/images-tri/ankit.png" alt="course" class="image-tranguar" />
+                        <img src="assets\images-tri\student\ankit.png" alt="course" class="image-tranguar" />
                         <div class="course-content">
                             <h2>ios developer</h2>
                             <p>
@@ -328,7 +311,7 @@ require("nevbar.php");
                 </div>
                 <div class="single-home-special-course">
                     <div class="course-img">
-                        <img src="assets/images-tri/abhishek_div.png" alt="course" class="image-tranguar" />
+                        <img src="assets\images-tri\student\abhishek_div.png" alt="course" class="image-tranguar" />
                         <div class="course-content">
                             <h2>ios developer</h2>
                             <p>
@@ -341,7 +324,7 @@ require("nevbar.php");
                 </div>
                 <div class="single-home-special-course">
                     <div class="course-img">
-                        <img src="assets/images-tri/anshul.png" alt="course" class="image-tranguar" />
+                        <img src="assets\images-tri\student\anshul.png" alt="course" class="image-tranguar" />
                         <div class="course-content">
                             <h2>ios developer</h2>
                             <p>
@@ -354,7 +337,7 @@ require("nevbar.php");
                 </div>
                 <div class="single-home-special-course">
                     <div class="course-img">
-                        <img src="assets/images-tri/abhishek_das.png" alt="course" class="image-tranguar" />
+                        <img src="assets\images-tri\student\abhishek_das.png" alt="course" class="image-tranguar" />
                         <div class="course-content">
                             <h2>Android developer</h2>
                             <p>
@@ -425,71 +408,6 @@ require("nevbar.php");
         <img src="assets/images/left-shape.png" alt="shape" />
     </span>
 
-    <!-- <section class="home-news pb-100 pt-100"> 
-<div class="container">
-<div class="section-tittle text-center">
-<h2>Our Daily News Update</h2>
-<p>
-A college course is a class offered by a college or university. These courses are usually part of a program leading.
-</p>
-</div>
-<div class="row">
-<div class="col-lg-4 col-md-6">
-<div class="single-home-news">
-<a href="single-news.html">
-<img src="assets/images/news/img1.png" alt="news" />
-</a>
-<div class="single-home-content">
-<h2>Soccer completed successfully</h2>
-<p class="calender">
-<i class="flaticon-calendar"></i> 01 April, 2021
-</p>
-<p>
-It is a long established fact that a reader will be distracted by the readable content of a page.
-</p>
-<a href="single-news.html" class="line-bnt">Read More <i class="flaticon-next"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="single-home-news">
-<a href="single-news.html">
-<img src="assets/images/news/img2.png" alt="news" />
-</a>
-<div class="single-home-content">
-<h2>Top Resuslt Holder 2021</h2>
-<p class="calender">
-<i class="flaticon-calendar"></i> 01 April, 2021
-</p>
-<p>
-It is a long established fact that a reader will be distracted by the readable content of a page.
-</p>
-<a href="single-news.html" class="line-bnt">Read More <i class="flaticon-next"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 sst-10">
- <div class="single-home-news">
-<a href="single-news.html">
-<img src="assets/images/news/img3.png" alt="news" />
-</a>
-<div class="single-home-content">
-<h2>Leaning About Virus COVID-19</h2>
-<p class="calender">
-<i class="flaticon-calendar"></i> 01 April, 2021
-</p>
-<p>
-It is a long established fact that a reader will be distracted by the readable content of a page.
-</p>
-<a href="single-news.html" class="line-bnt">Read More <i class="flaticon-next"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>-->
-
-
     <section class="home-teachers-area" >
         <div class="container">
             <div class="section-tittle text-center">
@@ -505,92 +423,44 @@ It is a long established fact that a reader will be distracted by the readable c
                     <div class="single-home-teacher">
                         <div class="teacher-img">
                             <a href="single-teacher.html">
-                                <img src="assets/images-tri/khushboo.png" alt="teacher"
+                                <img src="assets\images-tri\trainer\khushboo.png" alt="teacher"
                                     style="vertical-align: none;height: 260px;" /></a>
                         </div>
                         <div class="teachers-content">
                             <h2>Khushboo Gupta</h2>
                             <p>Head of Training Operations</p>
                         </div>
-                        <!-- <div class="teacher-social">
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-envelope"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-right-arrow"></i></a>
-                                </li>
-                            </ul>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-home-teacher">
                         <div class="teacher-img">
                             <a href="single-teacher.html">
-                                <img src="assets/images-tri/satish (1).png" alt="teacher" /></a>
+                                <img src="assets\images-tri\trainer\satish.png" alt="teacher" /></a>
                         </div>
                         <div class="teachers-content">
                             <h2>Shatish Pawar</h2>
                             <p> Trainer</p>
                         </div>
-                        <!-- <div class="teacher-social">
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-envelope"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-right-arrow"></i></a>
-                                </li>
-                            </ul>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-home-teacher">
                         <div class="teacher-img">
                             <a href="single-teacher.html">
-                                <img src="assets/images-tri/tuhsar.png" alt="teacher" /></a>
+                                <img src="assets\images-tri\trainer\tuhsar.png" alt="teacher" /></a>
                         </div>
                         <div class="teachers-content">
                             <h2>Tushar Budhiraja</h2>
                             <p>Trainer</p>
                         </div>
-                        <!-- <div class="teacher-social">
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-envelope"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="flaticon-right-arrow"></i></a>
-                                </li>
-                            </ul>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-home-teacher">
                         <div class="teacher-img">
                             <a href="single-teacher.html">
-                                <img src="assets/images-tri/shivam.png" alt="teacher" /></a>
+                                <img src="assets\images-tri\trainer\shivam.png" alt="teacher" /></a>
                         </div>
                         <div class="teachers-content">
                             <h2>Subham Gauniyal</h2>
@@ -624,7 +494,7 @@ It is a long established fact that a reader will be distracted by the readable c
                 <div class="row align-items-start">
                     <div class="col">
                         <span class="tt" title="DotVik">
-                            <img src="client2/dotvik.png" class="img-fluid .shadow_image" alt="42nite-logo">
+                            <img src="assets\client2\dotvik.png" class="img-fluid .shadow_image" alt="42nite-logo">
                         </span>
                     </div>
                 </div>
@@ -633,7 +503,7 @@ It is a long established fact that a reader will be distracted by the readable c
                 <div class="row align-items-start">
                     <div class="col">
                         <span class="tt" title="Praxiv">
-                            <img src="client2/praxiv.png" class="img-fluid .shadow_image" alt="gallop-logo-1">
+                            <img src="assets\client2\praxiv.png" class="img-fluid .shadow_image" alt="gallop-logo-1">
                         </span>
                     </div>
                 </div>
@@ -642,7 +512,7 @@ It is a long established fact that a reader will be distracted by the readable c
                 <div class="row align-items-start">
                     <div class="col">
                         <span class="tt" title="InCraftiv">
-                            <img src="client2/incraftiv.png" class="img-fluid .shadow_image" alt="sankalp-logo">
+                            <img src="assets\client2\incraftiv.png" class="img-fluid .shadow_image" alt="sankalp-logo">
                         </span>
                     </div>
                 </div>
@@ -651,7 +521,7 @@ It is a long established fact that a reader will be distracted by the readable c
                 <div class="row align-items-start">
                     <div class="col">
                         <span class="tt" title="transCredit">
-                            <img src="client2/transCredit.png" class="img-fluid .shadow_image" alt="v2">
+                            <img src="assets\client2\transCredit.png" class="img-fluid .shadow_image" alt="v2">
                         </span>
                     </div>
                 </div>
@@ -660,7 +530,7 @@ It is a long established fact that a reader will be distracted by the readable c
                 <div class="row align-items-start">
                     <div class="col">
                         <span class="tt" title="AKL INDIA">
-                            <img src="client2/aklIndia.png" class="img-fluid .shadow_image" alt="stargyan">
+                            <img src="assets\client2\aklIndia.png" class="img-fluid .shadow_image" alt="stargyan">
                         </span>
                     </div>
                 </div>
