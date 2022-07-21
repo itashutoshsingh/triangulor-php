@@ -1,20 +1,20 @@
 <div class="navbar-area">
         <div class="mobile-nav">
-            <a href="index.php" class="logo">
+            <a href="index.html" class="logo">
                 <img src="assets/images-tri/triangular-01.png" alt="logo" />
             </a>
         </div>
         <div class="main-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.php">
-                        <img src="./assets/images-tri/triangular-01.png" alt="logo"
+                    <a class="navbar-brand" href="../index.php">
+                        <img src="../assets/images-tri/triangular-01.png" alt="logo"
                             style="height: 60px; width: 100%;" />
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav text-right">
                             <li class="nav-item">
-                                <a href="index.php" class="nav-link active">Home</a>
+                                <a href="../index.php" class="nav-link active">Home</a>
                             </li>
                             <!-- <li class="nav-item">
 <a href="about.html" class="nav-link">About</a>
@@ -34,7 +34,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item" style="margin-top: -4px;">
-                                <a href="about.php" class="nav-link" id="about">Sponsored Training</a>
+                                <a href="about.html" class="nav-link" id="about">Sponsored Training</a>
                             </li>
                             <!-- <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Events</a>
