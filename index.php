@@ -142,29 +142,31 @@ require("nevbar.php");
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single-ragular-course">
+                    <img src="assets\images-tri\android and ios\ios.png" class="a-os-img">
                         <div class="course-img">
-                            <img src="assets/images-tri/ios image1.jpg" alt="ragular" />
-                            <h2>iOS Training</h2>
+                            <!-- <img src="assets/images-tri/ios image1.jpg" alt="ragular" /> -->
+                            <h2 class="headingH2">iOS Training</h2>
                         </div>
                         <div class="course-content">
                             <p>
                                 Our Triangulor's iOS development training programs broaden your expertise and
                                 opportunities are limitless.
                             </p>
-                            <a href="iphone.html" class="border-btn">Read More</a>
+                            <!-- <a href="iphone.html" class="border-btn">Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single-ragular-course">
+                        <img src="assets\images-tri\android and ios\android.png" class="a-os-img">
                         <div class="course-img">
-                            <img src="assets/images-tri/Andoid image1.jpg" alt="ragular" />
-                            <h2>Android Training</h2>
+                            <!-- <img src="assets/images-tri/Andoid image1.jpg" alt="ragular" /> -->
+                            <h2 class="headingH2">Android Training</h2>
                         </div>
                         <div class="course-content">
                             <p>The Freedom to create our dream come true, design and build your own application.Showcase
                                 your ability.</p>
-                            <a href="android.html" class="border-btn">Read More</a>
+                            <!-- <a href="android.html" class="border-btn">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -174,25 +176,34 @@ require("nevbar.php");
 
 
     <section class="choose-area">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-6 ps-0">
-                    <div class="home-choose-img">
-                        <img src="assets/images-tri/home_page_why.jpg" alt="choose"
-                            style="height: 500px;width: 100%;" />
-                    </div>
-                </div>
-                <div class="col-lg-6 home-choose">
-                    <div class="home-choose-content">
-                        <div class="section-tittle">
-                            <h2>Why Choose TRIANGULOR?</h2>
-                            <p style="text-align: justify;">
+    <h2>Why Choose TRIANGULOR?</h2>
+                            <p style="text-align:center">
                                 TRIANGULOR enhance the technical skills which involve a lot of interpersonal skills with
                                 on client base LIVE PROJECTS & HIGH IMPACT MOBILE APPLICATIONS.
                             </p>
-                        </div>
+        <div class="container-fluid">
+             <div class="row">
+                <div class="col-lg-6 ">
+                     <!-- <div class="home-choose-img">
+                        <img src="assets/images-tri/home_page_why.jpg" alt="choose" style="height: 500px;width: 100%;" /> 
+                    </div>  -->
+                    <ul class="choose-list-home">
+                                    <li><i class="flaticon-check-mark"></i>Triangulor providing hands-on training
+                                        program.</li>
+                                    <li> <i class="flaticon-check-mark"></i>Project Oriented Trainings</li>
+                                    <li><i class="flaticon-check-mark"></i>Training on Niche Technologies.</li>
+                                    <li><i class="flaticon-check-mark"></i>Providing all machines including MAC for
+                                        training.</li>
+                                    <li><i class="flaticon-check-mark"></i>Certification-Oriented Trainings.</li>
+                                </ul>
+                </div> 
+                <div class="col-lg-6 home-choose">
+                    <div class="home-choose-content">
+                        <!-- <div class="section-tittle">
+                           
+                        </div> -->
                         <div class="row">
-                            <div class="col-lg-4 col-sm-12 col-md-5">
+                            <!-- <div class="col-lg-4 col-sm-12 col-md-5">
                                 <ul class="choose-list-left">
                                     <li><i class="flaticon-check-mark"></i>Triangulor providing hands-on training
                                         program.</li>
@@ -202,7 +213,7 @@ require("nevbar.php");
                                         training.</li>
                                     <li><i class="flaticon-check-mark"></i>Certification-Oriented Trainings.</li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <div class="col-lg-8 col-sm-12 col-md-7">
                                 <div class="choose-list-home">
                                     <ul>
