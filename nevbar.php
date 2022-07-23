@@ -34,7 +34,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item" style="margin-top: -4px;">
-                                <a href="about.php" class="nav-link" id="about">Sponsored Training</a>
+                                <a href="./about.php" class="nav-link" id="about">Sponsored Training</a>
                             </li>
                             <!-- <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Events</a>
@@ -105,7 +105,7 @@
 </ul>
 </li> -->
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact </a>
+                                <a href="contact.php" class="nav-link">Contact </a>
                             </li>
                         </ul>
                     </div>
