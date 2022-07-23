@@ -1029,9 +1029,9 @@ a.scroll-top i {
     transform: translate(-50%, -50%);
     font-size: 38px;
     font-family: playfair display, serif;
-    color: #2727ff;
+    color: #ffffff;
     text-align: center;
-    font-weight:500;
+    font-weight:700;
 }
 
 .home-ragular-course .single-ragular-course .course-img img {
@@ -1055,7 +1055,7 @@ a.scroll-top i {
 }
 
 .home-ragular-course .single-ragular-course .course-content p {
-    color: #616161;
+    color: #ffffff;
     font-size: 16px;
     margin-top: 145px;
 
@@ -4999,7 +4999,11 @@ a.scroll-top i {
   .choose-area h2:first-child{
     text-align: center;
   }
- 
- 
+  .mr-l{
+    margin-left: 97px;
+  }
+  .bag-col{
+    background-color: #0000ff;
+  }
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 

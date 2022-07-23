@@ -14,27 +14,27 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav text-right">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">Home</a>
+                                <a href="..\triangulor-php\index.php#homeNav" class="nav-link active">Home</a>
                             </li>
                             <!-- <li class="nav-item">
 <a href="about.html" class="nav-link">About</a>
 </li> -->
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">course</a>
-                                <ul class="dropdown-menu">
+                                <a href="..\triangulor-php\index.php#featuredCourses" class="nav-link dropdown-toggle">course</a>
+                                <!-- <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <a href="iphone.html" class="nav-link">iOS Training</a>
                                     </li>
-                                    <!-- <li class="nav-item">
+                                     <li class="nav-item">
                                         <a href="digitalmarketing.html" class="nav-link">Digital Marketing</a>
-                                    </li> -->
+                                    </li> 
                                     <li class="nav-item">
                                         <a href="android.html" class="nav-link">Android Training</a>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="nav-item" style="margin-top: -4px;">
-                                <a href="about.html" class="nav-link" id="about">Sponsored Training</a>
+                                <a href="..\triangulor-php\index.php#teacher" class="nav-link" id="about">Sponsored Training</a>
                             </li>
                             <!-- <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Events</a>
@@ -105,7 +105,7 @@
 </ul>
 </li> -->
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact </a>
+                                <a href="..\triangulor-php\index.php#contract" class="nav-link">Contact </a>
                             </li>
                         </ul>
                     </div>

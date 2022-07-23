@@ -8,7 +8,7 @@ require("header.php");
 <?php
 require("nevbar.php");
 ?>
-    <div id="loading">
+    <div id="loading" >
         <div id="loading-center">
             <div id="loading-center-absolute">
                 <div class="object" id="object_one"></div>
@@ -18,7 +18,7 @@ require("nevbar.php");
             </div>
         </div>
     </div>
-    <section class="slider-area">
+    <section class="slider-area" id="homeNav">
         <div class="home-slider owl-carousel owl-theme">
             <div class="single-slider single-slider-bg-1">
                 <div class="d-table">
@@ -147,7 +147,7 @@ require("nevbar.php");
                             <!-- <img src="assets/images-tri/ios image1.jpg" alt="ragular" /> -->
                             <h2 class="headingH2">iOS Training</h2>
                         </div>
-                        <div class="course-content">
+                        <div class="course-content bag-col">
                             <p>
                                 Our Triangulor's iOS development training programs broaden your expertise and
                                 opportunities are limitless.
@@ -163,7 +163,7 @@ require("nevbar.php");
                             <!-- <img src="assets/images-tri/Andoid image1.jpg" alt="ragular" /> -->
                             <h2 class="headingH2">Android Training</h2>
                         </div>
-                        <div class="course-content">
+                        <div class="course-content bag-col">
                             <p>The Freedom to create our dream come true, design and build your own application.Showcase
                                 your ability.</p>
                             <!-- <a href="android.html" class="border-btn">Read More</a> -->
@@ -176,45 +176,27 @@ require("nevbar.php");
 
 
     <section class="choose-area">
-    <h2>Why Choose TRIANGULOR?</h2>
+  
+        <div class="col-lg-10 home-choose home-choose-content mr-l">
+        <h2>Why Choose TRIANGULOR?</h2>
                             <p style="text-align:center">
                                 TRIANGULOR enhance the technical skills which involve a lot of interpersonal skills with
                                 on client base LIVE PROJECTS & HIGH IMPACT MOBILE APPLICATIONS.
                             </p>
-        <div class="container-fluid">
-             <div class="row">
-                <div class="col-lg-6 ">
-                     <!-- <div class="home-choose-img">
-                        <img src="assets/images-tri/home_page_why.jpg" alt="choose" style="height: 500px;width: 100%;" /> 
-                    </div>  -->
-                    <ul class="choose-list-home">
-                                    <li><i class="flaticon-check-mark"></i>Triangulor providing hands-on training
-                                        program.</li>
-                                    <li> <i class="flaticon-check-mark"></i>Project Oriented Trainings</li>
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <ul class="choose-list-home">
+                                    <li><i class="flaticon-check-mark"></i>Triangulor providing hands-on training program.</li>
+                                    <li><i class="flaticon-check-mark"></i>Project Oriented Trainings</li>
                                     <li><i class="flaticon-check-mark"></i>Training on Niche Technologies.</li>
-                                    <li><i class="flaticon-check-mark"></i>Providing all machines including MAC for
-                                        training.</li>
+                                    <li><i class="flaticon-check-mark"></i>Providing all machines including MAC for training.</li>
                                     <li><i class="flaticon-check-mark"></i>Certification-Oriented Trainings.</li>
-                                </ul>
-                </div> 
+                        </ul>
+                    </div> 
                 <div class="col-lg-6 home-choose">
                     <div class="home-choose-content">
-                        <!-- <div class="section-tittle">
-                           
-                        </div> -->
                         <div class="row">
-                            <!-- <div class="col-lg-4 col-sm-12 col-md-5">
-                                <ul class="choose-list-left">
-                                    <li><i class="flaticon-check-mark"></i>Triangulor providing hands-on training
-                                        program.</li>
-                                    <li> <i class="flaticon-check-mark"></i>Project Oriented Trainings</li>
-                                    <li><i class="flaticon-check-mark"></i>Training on Niche Technologies.</li>
-                                    <li><i class="flaticon-check-mark"></i>Providing all machines including MAC for
-                                        training.</li>
-                                    <li><i class="flaticon-check-mark"></i>Certification-Oriented Trainings.</li>
-                                </ul>
-                            </div> -->
-                            <div class="col-lg-8 col-sm-12 col-md-7">
+                            <div class="col-lg-12 col-sm-12 col-md-7">
                                 <div class="choose-list-home">
                                     <ul>
                                         <li> <i class="flaticon-check-mark"></i>Sponsored Training</li>
@@ -419,8 +401,8 @@ require("nevbar.php");
         <img src="assets/images/left-shape.png" alt="shape" />
     </span>
 
-    <section class="home-teachers-area" >
-        <div class="container">
+    <section class="home-teachers-area" id="teacher">
+        <div class="container" >
             <div class="section-tittle text-center">
                 <h2 id="industrialTrainer">Professional Industrial Trainer</h2>
                 <p>
@@ -558,8 +540,8 @@ require("nevbar.php");
                             style="margin: 20px;height: 580px;width: 500px;border-radius: 30px;" />
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="home-contact-content">
+                <div class="col-lg-6" id="contract" >
+                    <div class="home-contact-content" >
                         <h2>What Do You Want to Know?</h2>
                         <form id="contactForm">
                             <div class="row">

@@ -26,8 +26,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-content fml-25">
-                        <h2>Quick Links</h2>
-                        <ul>
+                        <!--<h2>Quick Links</h2>
+                         <ul>
                             <li>
                                 <a href="index.html#featuredCourses"><i class="flaticon-next"></i> Courses</a>
                             </li>
@@ -37,33 +37,33 @@
                             <li>
                                 <a href="index.html#industrialTrainer"><i class="flaticon-next"></i>Trainer</a>
                             </li>
-                            <!-- <li>
+                             <li>
                                 <a href="#"><i class="flaticon-next"></i> Staffs</a>
-                            </li> -->
+                            </li> 
                             <li>
                                 <a href="about.html#whyUs"><i class="flaticon-next"></i> Why Us?</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
+                </div> 
+                 <div class="col-lg-2 col-md-6">
                     <div class="footer-content fml-15">
                         <h2>Quick Links</h2>
                         <ul>
                             <li>
-                                <a href="index.html"><i class="flaticon-next"></i> Home</a>
+                                <a href="..\triangulor-php\index.php#homeNav"><i class="flaticon-next"></i> Home</a>
                             </li>
                             <li>
-                                <a href="iphone.html"><i class="flaticon-next"></i>IOS Training</a>
+                                <a href="..\triangulor-php\index.php#featuredCourses"><i class="flaticon-next"></i>IOS Training</a>
                             </li>
                             <li>
-                                <a href="android.html"><i class="flaticon-next"></i>Android Training</a>
+                                <a href="..\triangulor-php\index.php#featuredCourses"><i class="flaticon-next"></i>Android Training</a>
                             </li>
                             <li>
-                                <a href="about.html"><i class="flaticon-next"></i>sponsored Training</a>
+                                <a href="..\triangulor-php\index.php#teacher"><i class="flaticon-next"></i>sponsored Training</a>
                             </li>
                             <li>
-                                <a href="contact.html"><i class="flaticon-next"></i>Contact</a>
+                                <a href="..\triangulor-php\index.php#contract"><i class="flaticon-next"></i>Contact</a>
                             </li>
                         </ul>
                     </div>
