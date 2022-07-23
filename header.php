@@ -47,7 +47,8 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
 <!-- /////////////////////////// -->
-<script>(function(w, d) { w.CollectId = "62c3fb267fd5da5e20c6b9d9"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<script>(function(w, d) { w.CollectId = "62d95149fbae47706547413e"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<!-- <div><iframe class="m-w-100" src="https://www.smatbot.com/kya_backend/share?code=tringulor_13210" style="border:0;" width="400" height="500"></iframe></div> -->
 <!-- ////////////////////////// -->
         <style>
             .fa-brain-circuit::before {

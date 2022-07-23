@@ -1083,6 +1083,8 @@ a.scroll-top i {
     padding: 75px 0;
     padding-bottom: 25px;
     overflow: hidden
+    display: flex;
+    justify-content: center;
 }
 
 .choose-area .home-choose-img {
