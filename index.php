@@ -38,8 +38,8 @@ require("nevbar.php");
                                     <div class="slider-btn bnt1 text-center">
                                         <!-- <i class="fa-solid fa-brain"></i> -->
                                         <!-- <i class="fa-solid fa-brain"></i> -->
-                                        <a href="./contact.html" class="box-btn">Contact</a>
-                                        <a href="index.html#featuredCourses" class="border-btn">View Courses</a>
+                                        <a href="..\triangulor-php\index.php#contract" class="box-btn">Contact</a>
+                                        <a href="..\triangulor-php\index.php#featuredCourses" class="border-btn">View Courses</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,8 +62,8 @@ require("nevbar.php");
                                             profession as SOFTWARE DEVELOPER</p>
                                     </div>
                                     <div class="slider-btn bnt2">
-                                        <a href="about.html#enrol" class="box-btn">Enroll</a>
-                                        <a href="index.html#featuredCourses" class="border-btn">View Courses</a>
+                                        <a href="..\triangulor-php\index.php#contract" class="box-btn">Enroll</a>
+                                        <a href="..\triangulor-php\index.php#featuredCourses" class="border-btn">View Courses</a>
                                     </div>
                                 </div>
                             </div>
@@ -153,6 +153,15 @@ require("nevbar.php");
                                 opportunities are limitless.
                             </p>
                             <!-- <a href="iphone.html" class="border-btn">Read More</a> -->
+                            <ul class="ul_ios">
+                                <li><i class="fa-brands fa-apple"></i>Start your own app based business</li>
+                                <li><i class="fa-brands fa-apple"></i>After the course, you will be able to build any app you want.</li>
+                                <li><i class="fa-brands fa-apple"></i>Master creating Augmented Reality apps using Apple’s new ARKit</li>
+                                <li><i class="fa-brands fa-apple"></i>You will learn Xcode, UIKit and SwiftUI, ARKit, CoreML and CoreData.</li>
+                                <li><i class="fa-brands fa-apple"></i>Master app marketing so you can publish your apps and generate downloads</li>
+                                <li><i class="fa-brands fa-apple"></i>You will learn by doing, where every lesson is incorporated into a real-world app project.</li>
+
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -161,12 +170,20 @@ require("nevbar.php");
                         <img src="assets\images-tri\android and ios\android.png" class="a-os-img">
                         <div class="course-img">
                             <!-- <img src="assets/images-tri/Andoid image1.jpg" alt="ragular" /> -->
-                            <h2 class="headingH2">Android Training</h2>
+                            <h2 class="headingH2 effect-shine">Android Training</h2>
                         </div>
                         <div class="course-content bag-col">
                             <p>The Freedom to create our dream come true, design and build your own application.Showcase
                                 your ability.</p>
                             <!-- <a href="android.html" class="border-btn">Read More</a> -->
+                            <ul class="ul_android">
+                                <li><i class="fa-brands fa-android"></i>You'll be able to develop cloud apps using Google Firebase</li>
+                                <li><i class="fa-brands fa-android"></i>You'll be able to work as an Android freelancer and work from anywere in the world.</li>
+                                <li><i class="fa-brands fa-android"></i>Submit your apps to Google Play and generate revenue with Google Pay and Google Ads</li>
+                                <li><i class="fa-brands fa-android"></i>Bored with the same old, same old? Apply for a new job in a software company as an Android developer</li>
+                                <li><i class="fa-brands fa-android"></i>You can build any Android app you can think of. No matter if it is an idea that you or your friends have, or if it is a contract job that you need to develop.</li>
+                            </ul>
+                         
                         </div>
                     </div>
                 </div>

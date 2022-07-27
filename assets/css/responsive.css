@@ -473,7 +473,8 @@
     }
 
     .home-choose-content {
-        margin-top: 3%
+        margin-top: 0%
+
     }
 
     .home-choose-content .section-tittle p {
@@ -481,7 +482,8 @@
     }
 
     .home-choose-content .choose-list-home {
-        padding-left: 0
+        padding-left: 0;
+       
     }
 
     .home-choose-content .box-btn {
@@ -991,7 +993,7 @@
     }
 
     .choose-area .home-choose-content {
-        margin-top: 20%
+        margin-top: 0%
     }
 
     .choose-area .home-choose-content .section-tittle p {
@@ -1735,3 +1737,38 @@
         bottom: 15px
     }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+    .a-os-img {
+        position: absolute;
+        height: 100px;
+        right: 10px;
+        top: 37px;
+  }
+  .headingH2{
+    font-size: 26px !important;
+    padding-left: 18px;
+  }
+  .home-choose{
+    margin-top: -27px;
+  }
+}
+@media (max-width: 767px){
+      .headingH2{
+
+        padding-right: 21px;
+  }
+
+}
+@media (max-width: 360px){
+        .a-os-img {
+            position: absolute;
+            height: 122px;
+            right: 6px;
+            top: 31px;
+        }
+        .headingH2{
+
+            padding-right: 29px;
+      }
+  }
+

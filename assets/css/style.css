@@ -1056,9 +1056,11 @@ a.scroll-top i {
 
 .home-ragular-course .single-ragular-course .course-content p {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 19px;
     margin-top: 145px;
-
+    font-weight: 700;
+    border-bottom: 1px solid white;
+    padding-bottom: 9px;
 }
 
 .home-ragular-course .single-ragular-course .course-content a {
@@ -1082,7 +1084,7 @@ a.scroll-top i {
     position: relative;
     padding: 75px 0;
     padding-bottom: 25px;
-    overflow: hidden
+    overflow: hidden;
     display: flex;
     justify-content: center;
 }
@@ -5001,11 +5003,29 @@ a.scroll-top i {
   .choose-area h2:first-child{
     text-align: center;
   }
-  .mr-l{
-    margin-left: 97px;
-  }
+  
   .bag-col{
     background-color: #0000ff;
   }
+  .ul_ios {
+    text-align: left ;
+    color: white ;
+    font-size: 16px ;
+    /* line-height: 0.7; */
+  }
+  .ul_android{
+    text-align: left;
+    color: white;
+    font-size: 16px;
+  }
+  .fa-apple {
+    margin-left: -30px;
+    padding-right: 17px;
+  }
+ .fa-android{
+    margin-left: -30px;
+    padding-right: 12px;
+  }
+
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 
